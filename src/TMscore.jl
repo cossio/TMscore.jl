@@ -12,9 +12,9 @@ function tmscore(
 
     stdout = tempname()
     stderr = tempname()
-    run(pipeline(`$cmd $pdb1 $pdb2`; stdout, stderr))
+    process = run(pipeline(`$cmd $pdb1 $pdb2`; stdout, stderr); wait=false)
 
-    return (; stdout, stderr)
+    return (; process, stdout, stderr)
 end
 
 end # module
