@@ -1,2 +1,1 @@
-using Test: @test, @testset
-import TMscore
+module aqua_tests include("aqua.jl") end
