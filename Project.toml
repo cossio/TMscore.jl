@@ -1,7 +1,7 @@
 name = "TMscore"
 uuid = "4f043ecb-e21b-455c-9fdf-d7072a819848"
 authors = ["Jorge Fernandez-de-Cossio-Diaz <j.cossio.diaz@gmail.com>"]
-version = "1.0.0"
+version = "1.0.1-DEV"
 
 [deps]
 TMscore_jll = "1d8dad79-2f3d-554c-bf22-543753cb6ff4"
