@@ -4,4 +4,4 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TMscore = "4f043ecb-e21b-455c-9fdf-d7072a819848"
 
 [compat]
-Aqua = "0.7"
+Aqua = "0.8"
